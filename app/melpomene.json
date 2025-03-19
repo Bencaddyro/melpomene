@@ -1,0 +1,7 @@
+{
+  "name": "melpomene",
+  "description": "Boiler plate to contact background service",
+  "path": "/home/bencaddyro/skaffen/melpomene/app/melpomene.py",
+  "type": "stdio",
+  "allowed_extensions": [ "melpomene@example.org" ]
+}

@@ -1,0 +1,16 @@
+[Unit]
+Description=Melpomene backend
+
+[Service]
+Type=simple
+
+User=bencaddyro
+ExecStart=/home/bencaddyro/skaffen/melpomene/target/release/melpomene
+
+Restart=on-failure
+
+# Configures the time to wait before service is stopped forcefully.
+TimeoutStopSec=300
+
+[Install]
+WantedBy=multi-user.target
