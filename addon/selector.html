@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <style>
+    html, body {
+      width: 135px;
+    }
+    
+    div {
+      width: 100%;
+      padding: 4px;
+      font-size: 1em;
+      text-align: right;
+      cursor: pointer;
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    div:hover {
+      background-color: #7f8c8d;
+    }
+
+    #status {
+      background-color: #34495e;
+      font-size: 0.8em;
+      text-align: center;
+      cursor: default;
+      padding: 2px;
+    }
+
+    #status:hover {
+      background-color: #34495e;
+    }
+    </style>
+  </head>
+
+<body>
+  <div id="status">Checking status...</div>
+  <div class="item" id="clip">🎬 clip</div>
+  <div class="item" id="clip+audio">🎬+🎶 clip & audio</div>
+  <div class="item" id="audio_clean">🎶🌟 audio clean</div>
+  <div class="item" id="audio_dirty">🎶 audio dirty</div>
+  <div class="item" id="delete">🗑️ delete</div>
+  <div class="item" id="wildcard">🌀</div>
+  <script src="selector.js"></script>
+</body>
+
+</html>

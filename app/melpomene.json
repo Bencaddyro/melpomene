@@ -1,0 +1,7 @@
+{
+  "name": "melpomene",
+  "description": "Direct yt-dlp downloader script",
+  "path": "/home/bencaddyro/skaffen/melpomene/melpomene.sh",
+  "type": "stdio",
+  "allowed_extensions": [ "melpomene@example.org" ]
+}
